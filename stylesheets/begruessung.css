@@ -1,51 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+@media (max-width: 600px) {
+body{
+        
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+body{
+        
+    }
+}
+  
 body {
     font-family: 'Inter';
     background-color: #90AFC5;
+    color: #336B87;
 }
 
 
-.flexbox-container-head{
+.flexbox-container-nav{
     display: flex;
     flex-direction: row;
-    color: #336B87;
     justify-content: space-between;
     align-content: flex-end;
     margin-top: 20px;
 }
 
-.flexbox-head-item1{
+.flexbox-nav-title{
+    text-decoration: none;
+    color: #336B87;
     font-family: "inter";
-    font-size: 30px;
-    margin-left: 30px;
+    font-size: 3vw;
+    margin-left: 2vw;
 }
 
-.flexbox-head-item2 {
+.flexbox-nav-sites {
     display: flex;
     flex-direction: row;
     align-items: end;
 }
 
-.flexbox-head-item2-item {
-    font-size: 20px;
-    margin-left: 30px;
-    margin-right: 50px;
+.flexbox-nav-sites-item {
+    text-decoration: none;
+    color: #336B87;
+    font-size: 2.5vw;
+    margin-left: 1.5vw;
+    margin-right: 5vw;
 }
 
-.head-hr {
+.nav-hr {
     border: 5px solid black;
     border-radius: 100px;
 }
 
 footer{
     position: absolute;
-    bottom: 30px;
+    bottom: 1vw;
     left: 91%;
 }
 
 .footer-kontakt {
-    font-size: 18px;
-    margin-right: 50px;
+    text-decoration: none;
+    color: #336B87;
+    font-size: 1.8vw;
+    margin-right: 0.1vw;
     color: #763626;
+}
+
+.Titel-article{
+    height: 40vw;
+    width: auto;
+    background-image: url("/img/Titel-Foto.png");
+    background-size: cover;
+}
+
+.Titel {
+    color: white;
+    font-size: 4vw;
+    margin: 2vw;
+    z-index: 2;
+}
+
+.Titel-text {
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+    z-index: 2;
 }

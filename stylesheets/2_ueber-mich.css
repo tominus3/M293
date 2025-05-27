@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@media (max-width: 600px) {
+    .uebere-mich-main {
+        flex-direction: column !important;
+    }
+
+    .ueber-mich-Bild {
+        width: 50vw !important;
+        height: auto !important;
+        margin-top: 2vw !important;
+    }
+
+    .ueber-mich-Text {
+        font-size: 2.5vw !important;
+        margin-top: 2vw !important;
+        margin-left: 3vw !important;
+    }
+}
+  
+body {
+    font-family: 'Inter';
+    background-color: #90AFC5;
+    color: #336B87;
+}
+
+
+.flexbox-container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    margin-top: 20px;
+}
+
+.flexbox-nav-title{
+    text-decoration: none;
+    color: #336B87;
+    font-family: "inter";
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+
+.flexbox-nav-sites {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.flexbox-nav-sites-item {
+    text-decoration: none;
+    color: #336B87;
+    font-size: 2.5vw;
+    margin-left: 1.5vw;
+    margin-right: 5vw;
+}
+
+.nav-hr {
+    border: 0.3vw solid #2A3132;
+    border-radius: 100px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1vw;
+    z-index: 100;
+}
+
+.footer-kontakt {
+    text-decoration: none;
+    color: #336B87;
+    font-size: 1.8vw;
+    margin-right: 0.1vw;
+    color: #763626;
+}
+
+.ueber-mich-Titel{
+    font-size: 3vw;
+    margin-left: 40vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+.uebere-mich-main{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ueber-mich-Text{
+    font-size: 1.8vw;
+    color: #ffffff;
+    margin-top: 5vw;
+    margin-right: 5vw;
+    align-self: flex-start;
+}
+
+.ueber-mich-Bild{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    height: 35vw;
+    width: 35vw;
+}

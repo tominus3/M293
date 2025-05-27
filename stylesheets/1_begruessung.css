@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 @media (max-width: 600px) {
-body{
-        
+    .Titel-article{
+        background-image: none!important;
     }
-}
 
-@media (min-width: 601px) and (max-width: 1024px) {
-body{
-        
+    body:not(nav){
+        background-image: url("/img/welcome_background.png") !important;
     }
 }
   
@@ -50,14 +48,18 @@ body {
 }
 
 .nav-hr {
-    border: 5px solid black;
+    border: 0.3vw solid #2A3132;
     border-radius: 100px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
 }
 
-footer{
-    position: absolute;
-    bottom: 1vw;
-    left: 91%;
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1vw;
+    z-index: 100;
 }
 
 .footer-kontakt {

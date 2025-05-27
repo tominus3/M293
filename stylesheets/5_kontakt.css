@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@media (max-width: 600px) {
+
+    .kontakt-container {
+        grid-template-areas:
+            "a"
+            "c"
+            "e"
+            "d"!important;
+            grid-template-rows: 1fr !important;
+            grid-template-columns: 1fr !important;
+    }
+
+    .kontakt-titel {
+        grid-area: a;
+        justify-self: center !important;
+        font-size: 5vw !important;
+        margin-left: 2vw !important;
+        margin-top: 2vw !important;
+    }
+
+    .send-text{
+        font-size: 5vw !important;
+        margin-left: 2vw !important;
+        margin-top: 1vw !important;
+    }
+
+    .send-hr {
+        width: 88vw !important;
+        margin-left: 2vw !important;
+        margin-top: 0.5vw !important;
+        border-width: 0.3vw !important;
+    }
+
+    .kontakt-button {
+        justify-self: center !important;
+    }
+
+    .kontakt-button button {
+        width: 80vw !important;
+        padding: 2vw 0 !important;
+        font-size: 4vw !important;
+        margin-left: 2vw !important;
+        margin-top: 5vw !important;
+    }
+
+    .kontakt-info {
+        grid-area: d;
+        margin-top: 5vw !important;
+    }
+
+    .info-item {
+        font-size: 4vw !important;
+        margin-left: 2vw !important;
+    }
+
+    .kontakt-item {
+        display: none !important;
+    }
+
+    .kontakt-socialmed {
+        display: none !important;
+    }
+}
+  
+body {
+    font-family: 'Inter';
+    background-color: #90AFC5;
+    color: #336B87;
+}
+
+
+.flexbox-container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    margin-top: 20px;
+}
+
+.flexbox-nav-title{
+    text-decoration: none;
+    color: #336B87;
+    font-family: "inter";
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+
+.flexbox-nav-sites {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.flexbox-nav-sites-item {
+    text-decoration: none;
+    color: #336B87;
+    font-size: 2.5vw;
+    margin-left: 1.5vw;
+    margin-right: 5vw;
+}
+
+.nav-hr {
+    border: 0.3vw solid #2A3132;
+    border-radius: 100px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1vw;
+    z-index: 100;
+}
+
+.footer-kontakt {
+    text-decoration: none;
+    color: #336B87;
+    font-size: 1.8vw;
+    margin-right: 0.1vw;
+    color: #763626;
+}
+
+.kontakt-container {
+    display: grid;
+    grid-template-areas:
+        "a a b"
+        "c d b"
+        "e e b";
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.kontakt-titel {
+    grid-area: a;
+    color: white;
+    font-size: 4vw;
+    font-weight: bolder;
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+
+.kontakt-socialmed{
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kontakt-img {
+    width: 9.5vw;
+    height: 9.5vw;
+    margin-top: 3vw;
+
+}
+
+.kontakt-send {
+    grid-area: c;
+    display: flex;
+    flex-direction: column
+}
+
+.kontakt-send-item {
+    margin-left: 2.5vw;
+}
+
+.kontakt-send-item:nth-child(2) {
+    margin-top: 5vw;
+}
+
+.send-text {
+    color: white;
+    font-size: 2.5vw;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    opacity: 0.4;
+}
+
+.send-hr {
+    border: 0.2vw solid #2A3132;
+    width: 29vw;
+    border-radius: 100px;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+}
+
+.kontakt-info {
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.info-item {
+    font-size: 2vw;
+    font-weight: 100;
+    margin-left: 6vw;
+    margin-top: 1vw;
+}
+
+.info-item:nth-child(2) {
+    margin-top: 5vw;
+}
+
+.kontakt-button {
+    grid-area: e;
+    align-self: end;
+    justify-self: start;
+    color: white;
+}
+
+.kontakt-button button {
+    background-color: #2A3132; 
+    color: white;
+    border: none;
+    padding: 1vw 3vw;
+    width: 30vw;
+    border-radius: 15px;
+    font-size: 2vw;
+    cursor: pointer;
+    margin-left: 4vw;
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+}

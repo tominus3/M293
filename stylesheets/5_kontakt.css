@@ -154,7 +154,7 @@ footer {
     width: 9.5vw;
     height: 9.5vw;
     margin-top: 3vw;
-
+    cursor: pointer;
 }
 
 .kontakt-send {

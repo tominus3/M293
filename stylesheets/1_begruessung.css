@@ -6,7 +6,7 @@
     }
 
     body:not(nav){
-        background-image: url("/img/welcome_background.png") !important;
+        background-image: url("/M293/img/welcome_background.png") !important;
     }
 }
   
@@ -73,7 +73,7 @@ footer {
 .Titel-article{
     height: 40vw;
     width: auto;
-    background-image: url("/img/Titel-Foto.png");
+    background-image: url("/M293/img/Titel-Foto.png");
     background-size: cover;
 }
 

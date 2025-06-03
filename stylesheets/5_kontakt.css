@@ -62,6 +62,14 @@
     }
 }
 
+.flexbox-container-nav .flexbox-nav-sites :nth-child(1) {
+    font-weight: normal;
+}
+
+.footer-kontakt {
+    font-weight: 1000 !important;
+}
+
 .kontakt-container {
     display: grid;
     grid-template-areas:

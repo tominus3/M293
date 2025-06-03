@@ -13,6 +13,10 @@
     }
 }
 
+.flexbox-container-nav .flexbox-nav-sites :nth-child(3) {
+    font-weight: 1000;
+}
+
 .fk-container{
     display: flex;
     flex-direction: column;

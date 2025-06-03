@@ -16,6 +16,14 @@
     }
 }
 
+.flexbox-container-nav .flexbox-nav-sites :nth-child(1) {
+    font-weight: 1000;
+}
+
+.footer-kontakt {
+    font-weight: normal !important;
+}
+
 .ueber-mich-Titel{
     font-size: 3vw;
     margin-left: 40vw;

@@ -8,6 +8,10 @@
     }
 }
 
+.flexbox-nav-title {
+    font-weight: 1000;
+}
+
 .Titel-article{
     height: 40vw;
     width: auto;

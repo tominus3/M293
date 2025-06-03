@@ -4,7 +4,7 @@ Dieses Projekt ist eine persönliche Portfolio-Website, die im Rahmen des Moduls
 
 ## Inhalte
 
-- **Begrüßung:** Startseite mit persönlicher Vorstellung
+- **Begrüssung:** Startseite mit persönlicher Vorstellung
 - **Über mich:** Informationen zu meinem Werdegang, Interessen und ein Video
 - **Portfolio:** Beschreibung eines Workshops
 - **Fähigkeiten:** Übersicht meiner Fähigkeiten
@@ -12,8 +12,8 @@ Dieses Projekt ist eine persönliche Portfolio-Website, die im Rahmen des Moduls
 
 ## Technologien
 
-- HTML & CSS (responsive Design)
-- Flexbox & CSS Grid
+- HTML und CSS (responsive Design)
+- Flexbox und CSS Grid
 - Google Fonts (Inter)
 
 ## Besonderheiten
